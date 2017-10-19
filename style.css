@@ -1,45 +1,62 @@
 
-style
-* {
-margin: 0;
-padding: 0;
-
-
-}
-body {
+body{
     background-color: #777;
-    font-family:'Arial';
     font-size: 18px;
 }
 
-h1 {
-    background-color: #ebebeb;
-   height: 40px;
-   padding: 1em; 
-   text-align: center;
+p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-body {
+
+#wrapper{
+    width:80%;
+}
+
+.header{
+    width: 100%;
+    background-color: #ebebeb;
+    height: 110px;
+    text-align: center;
+    font-family: 'Arial';
+    margin-top: 1.5%;
+}
+
+#content {
+    font-family: 'Helvectica Neue';
+    display: flex;
+    margin-top: 1.5%;
+}
+#section {
+    /*position: absolute;*/
+       float: left;  
+       width: 60%;
+       height: 400px;  
+       background-color: #ebebeb;
+       margin-right: 1.5%
+
+}
+#article {
     background-color: #777;
-    font-family:'Arial';
-    font-size: 18px;
+    margin: 5%;
+    height: 300px;
+    padding: 1%;
+    font-family: sans-serif;
 }
 
-nav { 
-    background-color:#ebebeb;
-    font-family: 'Helvectia Neue';
-    list-style-type: none;
-    padding: 25px;
-    margin: 1px;
-    text-align: center;
-
-}
-
-
-footer {
+.articlebox {
     background-color: #ebebeb;
-    padding: 15px
-    margin: 1px;
-    height: 20px;
-    text-align: center;
-    font-family: 'Helvectia Neue'
+    margin: 3%;
+    padding: 2%;
+    height: 50px;
 }
+
+#aside {
+        /*float: right;*/
+        width: 40%;
+        height: 400px;  
+        background-color: #ebebeb;
+}
+
+
